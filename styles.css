@@ -1,0 +1,438 @@
+/* Reset some default styles for consistency (optional) */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.below-hero p {
+  text-align: justify;
+}
+
+body {
+  background-color: #d8e7e7;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Header */
+header {
+  background-color: #3333339f; /* Customize navbar background color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-family: "Borel", cursive;
+  font-size: 40px;
+  width: 260px;
+  max-height: 50px;
+  color: #fff;
+  text-shadow: 3px 2px #000000;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header li {
+  margin-right: 20px;
+}
+
+.home {
+  margin-left: 40%;
+}
+
+header a:hover {
+  color: #ff9800; /* Customize hover color */
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+/* Header */
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1628559087259-8a472928f47a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 3px 2px #000000;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px #000000;
+  font-weight: 500;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #ff9800; /* Customize your button color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.2s ease;
+}
+
+.hero .btn:hover {
+  background-color: #f57c00; /* Customize the hover color */
+}
+
+/*-------------*/
+.below-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #c23617;
+  font-family: "Merriweather", serif;
+  text-shadow: 3px 2px #ffffff;
+  margin-top: 20px;
+  display: inline-block;
+  border-bottom: 2px solid #c23617;
+  font-weight: 700;
+}
+.below-hero {
+  margin: 0 30px;
+}
+
+.below-hero p {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  margin: 80px auto 0;
+  border-radius: 10px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.cookie-img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px 0 20px 5%;
+  border-radius: 40px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu p {
+  margin-left: 0;
+  margin-right: 5%;
+}
+
+/* readmore */
+.more {
+  display: none;
+}
+
+.button {
+  color: rgb(0, 0, 139);
+  background-color: rgb(14, 255, 130);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #106aaa;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.purchase img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 40px;
+}
+
+.price {
+  background-color: #989087a7;
+  border-radius: 40px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.price ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 2px;
+}
+
+.price li {
+  margin: 30px 0;
+}
+
+.price p {
+  font-size: 35px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.price p:hover {
+  font-size: 35px;
+  display: inline-block;
+  color: #000000;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #86786b;
+  border-radius: 40px 40px 40px 40px;
+  padding-bottom: 10px;
+}
+
+.form {
+  margin: 60px auto 20px;
+  width: 600px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #86786b;
+  text-align: center;
+  color: #fff;
+}
+
+.form p {
+  text-align: center;
+  font-weight: 500;
+}
+
+label,
+input,
+.form button {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.form button {
+  background-color: #967a5f;
+  color: #fff;
+  width: 30%;
+  padding: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #6b4017;
+  color: #fff;
+  width: 30%;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+input {
+  width: 80%;
+}
+
+.map {
+  display: block;
+  width: 600px;
+  height: 450px;
+  margin: 20px auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 1250px) {
+  .home {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+  .column img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hidden-first {
+    display: none;
+  }
+  .space {
+    margin-left: 10vw;
+  }
+  .box {
+    flex-direction: column;
+  }
+
+  .purchase img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 40px;
+  }
+
+  .price {
+    background-color: #989087a7;
+    border-radius: 40px;
+    width: 500px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .container {
+    background-color: #86786b;
+    border-radius: 40px 40px 40px 40px;
+    width: 500px;
+    height: 550px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hidden {
+    display: none;
+  }
+  .form {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header l1 {
+    padding: 0;
+    margin: 0;
+  }
+  .column img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  .cookie-img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 40px;
+  }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .purchase img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 40px;
+  }
+
+  .price {
+    background-color: #989087a7;
+    border-radius: 40px;
+    width: 300px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .container {
+    background-color: #86786b;
+    border-radius: 40px 40px 40px 40px;
+    width: 300px;
+    height: 550px;
+    padding-bottom: 10px;
+  }
+
+  .form {
+    width: 300px;
+  }
+
+  .map {
+    width: 300px;
+    height: 300px;
+  }
+}
